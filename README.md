@@ -1,6 +1,6 @@
 # Badge Giver
 
-Badge Giver is a personal project and a simple tool managed by [ItzKeyCode](https://github.com/ItzKeyYT). It is designed to help Discord users obtain the Active Developer Badge without the need for coding or technical knowledge. This project uses JavaScript and aims to provide an easy and accessible way for users to acquire the Active Developer Badge within the Discord platform.
+Badge Giver is a personal project and a simple tool managed by [Key](https://github.com/ykitzkey). It is designed to help Discord users obtain the Active Developer Badge without the need for coding or technical knowledge. This project uses JavaScript and aims to provide an easy and accessible way for users to acquire the Active Developer Badge within the Discord platform.
 
 ## Active Developer Badge
 
@@ -20,7 +20,7 @@ To start using Badge Giver and obtain the Active Developer Badge on Discord, fol
 
 2. **Download node.js:** In order to run the script, you must download [node.js](https://nodejs.org/en/download/) on to your computer.
 
-3. **Visit and download the latest releases:** Navigate to the [latest releases](https://github.com/ItzKeyYT/BadgeGiver/releases/latest) on [GitHub](https://github.com) and download it.
+3. **Visit and download the latest releases:** Navigate to the [latest releases](https://github.com/ykitzkey/BadgeGiver/releases/latest) on [GitHub](https://github.com) and download it.
 
 4. **Extract the files:** Once you have downloaded the file, navigate to the folder where you downloaded the .zip file and extract it.
 
@@ -47,7 +47,7 @@ To start using Badge Giver and obtain the Active Developer Badge on Discord, fol
 
 ## Support
 
-If you encounter any issues or have questions about using Badge Giver, feel free to report the issue on GitHub by clicking [here](https://github.com/ItzKeyYT/BadgeGiver/issues/new?assignees=ItzKeyYT&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D) or send an email to [contact@key.name.my](mailto:contact@key.name.my).
+If you encounter any issues or have questions about using Badge Giver, feel free to report the issue on GitHub by clicking [here](https://github.com/ykitzkey/BadgeGiver/issues/new?assignees=ItzKeyYT&labels=bug&projects=&template=bug_report.md&title=%5BBUG%5D) or send an email to [contact@key.name.my](mailto:contact@key.name.my).
 
 ## License
 
