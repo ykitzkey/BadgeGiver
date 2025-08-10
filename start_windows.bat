@@ -85,4 +85,4 @@ echo.
 
 rem Running index.js and logging its output separately
 echo Running index.js... >> "%SCRIPT_LOG%"
-node src/index.js
+node Bot/index.js

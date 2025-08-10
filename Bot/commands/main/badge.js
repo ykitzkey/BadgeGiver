@@ -36,6 +36,9 @@ module.exports = {
                         .setColor(0x00ff00)
                         .setTitle("Success!")
                         .setDescription("You have given the Active Developer Badge!")
+                        .addFields(
+                            { name: "Notice: You will need to wait for a day to get the badge. If you haven't got the badge after a day, please look for help using /badge help." }
+                        )
 
                     await interaction.editReply({ embeds: [successEmbed] });
                     break;
@@ -230,15 +233,15 @@ module.exports = {
                 .setTitle("Error!")
                 .setDescription("An error occurred while processing your command, please try again.")
 
-                try {
-                    if (interaction.replied || interaction.deferred) {
-                        await interaction.editReply({ embeds: [errorEmbed] });
-                    } else {
-                        await interaction.reply({ embeds: [errorEmbed] });
-                    }
-                } catch (err) {
-                    console.error(`Failed to reply with error message: ${replyError.message}`);
+            try {
+                if (interaction.replied || interaction.deferred) {
+                    await interaction.editReply({ embeds: [errorEmbed] });
+                } else {
+                    await interaction.reply({ embeds: [errorEmbed] });
                 }
+            } catch (err) {
+                console.error(`Failed to reply with error message: ${replyError.message}`);
+            }
 
             console.log(`Server [${guild?.name} | ${guild?.id}] - ❌ | An error occurred when trying to execute the badge command:\n`, err)
         }

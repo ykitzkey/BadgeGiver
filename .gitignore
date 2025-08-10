@@ -3,3 +3,5 @@ Archive
 node_modules
 package-lock.json
 Logs
+.gitignore
+.vscode
